@@ -1,6 +1,6 @@
 resource "aws_instance" "example" {
-  ami           = ""
-  instance_type = "t2.micro"
+  ami           = var.ami_id
+  instance_type = var.instance_type
 
 }
 
