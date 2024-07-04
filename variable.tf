@@ -5,6 +5,6 @@ variable "ami_id" {
 
 variable "instance_type" {
   description = "this required instance size"
-  default     = "t2.micro"
+  default     = "t2.medium"
 
 }
